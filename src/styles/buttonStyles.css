@@ -1,0 +1,28 @@
+.span-one, .span-two-width, .span-two-height {
+    border: none;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    margin: 2px;
+    font-weight: bolder;
+    color: white;
+    background: linear-gradient(140deg, rgb(152, 248, 255),  rgb(61, 96, 173));
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.span-two-height {
+    position: absolute;
+    height: 124px;    
+}
+
+.span-two-width {   
+    width: 124px;    
+}
+
+.span-one[type='button']:hover, .span-two-height[type='button']:hover, .span-two-width[type='button']:hover {
+    background: linear-gradient(140deg, rgb(79, 212, 241),  rgb(35, 84, 188));
+    color: rgb(2, 17, 48);
+    font-weight: bolder;
+}

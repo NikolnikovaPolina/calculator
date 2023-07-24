@@ -1,0 +1,11 @@
+.result {
+    width:310px;
+    height: 40px;
+    margin: 2px 2px 15px;
+    border-width: 1px;
+    border-color: rgb(61, 96, 173);
+    border-radius: 5px;
+    font-size: 20px;
+    color: rgb(61, 96, 173);
+    text-align: right;
+}
